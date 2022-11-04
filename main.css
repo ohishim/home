@@ -1,0 +1,102 @@
+@charset "Shift_JIS";
+
+/*============================================
+  ページ全体
+============================================*/
+body
+  {
+    background-image: url(bgp.jpg);
+    /*background-color:#fff352; */
+    margin-top:50; 
+    margin-right:50; 
+    margin-left:50;
+  }
+
+/*============================================
+  リンク
+============================================*/
+a:link 
+  {
+    text-decoration:underline; color:#000000;
+  }
+a:visited 
+  {
+    text-decoration:underline; color:#000000;
+  }
+a:hover 
+  {
+    text-decoration:none;color:#0000ff;
+  }
+
+/*============================================
+  News
+============================================*/
+div#news
+  {
+    width:100%; 
+    height:300px; 
+    overflow:auto; 
+    background-color:#FFF; 
+    border:1px #F0F0F0 dashed; 
+    font-size:80%; 
+    color:#000000;
+    border-radius: 16px;
+  }
+
+/*============================================
+  ヘッダー
+============================================*/
+h3#head
+  {
+    margin-left: 1em;
+  }
+p#head
+  {
+    margin-left: 1em;
+  }
+
+/*============================================
+  プロフィール
+============================================*/
+
+table#profile
+{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table#profile tbody tr
+{
+  text-align: left;
+}
+
+table#profile tbody th
+{
+  padding: 1%;
+  border-bottom: 1px solid black;
+}
+
+table#profile tbody th#l
+{
+  width: 12%;
+  min-width: 120px;
+/*  background-color: #26499d;
+  color: white;
+*/
+}
+
+table#profile tbody th#r
+{
+  width: 88%;
+}
+
+/*============================================
+  
+============================================*/
+
+div#box
+{
+  margin:0 auto;
+  width: 100%;
+  max-width: 1280px;
+}
